@@ -4,7 +4,7 @@ import React from 'react';
 
 const Pose = ({pose}) => {
     return (
-        <div>
+        <div className={pose.complete ? 'strike' : ''}>
             {pose.asana}
         </div>
     );
