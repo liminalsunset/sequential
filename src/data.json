@@ -1,0 +1,41 @@
+[{
+    "id": 1,
+    "asana": "Inhale - Arms up (Urdhva Hastasana)",
+    "complete": true
+  }, {
+    "id": 2,
+    "asana": "Exhale - Forward fold (Uttanasana)",
+    "complete": false
+  }, {
+    "id": 3,
+    "asana": "Inhale - Halfway rise (Ardha Uttanasana)",
+    "complete": false
+  }, {
+    "id": 4,
+    "asana": "Exhale - Jump or step back => Chaturanga",
+    "complete": false
+  }, {
+    "id": 5,
+    "asana": "Inhale - Up Dog (Urdhva Mukha Svanasana)",
+    "complete": false
+  }, {
+    "id": 6,
+    "asana": "Exhale - Down Dog (Adho Mukha Svanasana)",
+    "complete": false
+  }, {
+    "id": 7,
+    "asana": "Inhale - Jump or step between the hands, halfway lift (Ardha Uttanasana)",
+    "complete": false
+  }, {
+    "id": 8,
+    "asana": "Exhale - Fold (Uttanasana)",
+    "complete": false
+  }, {
+    "id": 9,
+    "asana": "Inhale - Raise the arms up overhead (Urdhva Hastasana)",
+    "complete": false
+  }, {
+    "id": 10,
+    "asana": "Exhale - Samasthiti",
+    "complete": false
+  }]
