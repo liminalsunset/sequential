@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header.js';
 import data from './data.json';
 import PoseList from './PoseList.js';
+import PoseForm from './PoseForm.js';
 
 function App() {
   const [ poseList, setPoseList ] = useState(data);
@@ -14,10 +15,25 @@ function App() {
     setPoseList(mapped);
   }
 
+  const handleFilter = () => {
+    let filtered = poseList.filter(pose => {
+      return !pose.complete;
+    });
+    setPoseList(filtered);
+  }
+
+  const addPose = (userInput) => {
+    let copy = [...poseList];
+    copy = [...copy, { id: Math.max(...poseList.map(pose => pose.id)) + 1, asana: userInput, complete: false }];
+    setPoseList(copy);
+  }
+
   return (
     <div className="App">
       <Header />
-      <PoseList poseList={poseList} handleToggle={handleToggle} />
+      <PoseList poseList={poseList} handleToggle={handleToggle} handleFilter={handleFilter} />
+      <PoseForm addPose={addPose} />
+      <button onClick='window.location.reload()'>Reset Sequence</button>
     </div>
   );
 }
