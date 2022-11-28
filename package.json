@@ -1,7 +1,7 @@
 {
   "name": "sequential",
   "version": "0.1.0",
-  "homepage": "https://https://liminalsunset.github.io/sequential",
+  "homepage": "https://liminalsunset.github.io/sequential",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
