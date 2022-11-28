@@ -1,4 +1,4 @@
-minimal sequencing app 
+minimal react sequencing app 
 initial frontend iteration
 with mock data
 
