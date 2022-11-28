@@ -4,6 +4,7 @@ import Header from './Header.js';
 import data from './data.json';
 import PoseList from './PoseList.js';
 import PoseForm from './PoseForm.js';
+import Reload from './Reload.js'
 
 function App() {
   const [ poseList, setPoseList ] = useState(data);
@@ -33,7 +34,7 @@ function App() {
       <Header />
       <PoseList poseList={poseList} handleToggle={handleToggle} handleFilter={handleFilter} />
       <PoseForm addPose={addPose} />
-      <button onClick='window.location.reload()'>Reset Sequence</button>
+      <Reload />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 [{
     "id": 1,
     "asana": "Inhale - Arms up (Urdhva Hastasana)",
-    "complete": true
+    "complete": false
   }, {
     "id": 2,
     "asana": "Exhale - Forward fold (Uttanasana)",
