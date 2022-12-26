@@ -1,4 +1,5 @@
 import React from 'react';
+import './Pose.css';
 
 //single pose in sequence
 

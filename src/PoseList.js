@@ -1,5 +1,6 @@
 import React from 'react';
-import Pose from './Pose.js'
+import Pose from './Pose.js';
+import './Pose.css';
 
 // container that holds all the poses
 
@@ -11,7 +12,7 @@ const PoseList = ({poseList, handleToggle, handleFilter}) => {
                     <Pose pose={pose} handleToggle={handleToggle} handleFilter={handleFilter} />
                 )
             })}
-            <button style={{margin: '20px'}} onClick={handleFilter}>Clear Completed Poses</button>
+            <button class='button' style={{margin: '20px'}} onClick={handleFilter}>Clear Completed Poses</button>
         </div>
     );
 };

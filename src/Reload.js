@@ -8,7 +8,7 @@ const Reload = () => {
 
     return (
         <div>
-            <button onClick={refreshPage}>Reset Sequence</button>
+            <button class='button' style={{margin: '20px'}} onClick={refreshPage}>Reset Sequence</button>
         </div>
     );
 }

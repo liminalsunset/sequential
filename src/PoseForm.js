@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Pose.css';
 
 const PoseForm = ({ addPose }) => {
 
@@ -17,7 +18,7 @@ const PoseForm = ({ addPose }) => {
     return (
         <form onSubmit={handleSubmit}>
             <input value={userInput} type='text' onChange={handleChange} placeholder='Next pose...' />
-            <button>Add Pose</button>
+            <button class='button' style={{margin: '10px'}}>Add Pose</button>
         </form>
     );
 };
