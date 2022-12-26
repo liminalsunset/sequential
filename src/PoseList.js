@@ -6,7 +6,7 @@ import './Pose.css';
 
 const PoseList = ({poseList, handleToggle, handleFilter}) => {
     return (
-        <div>
+        <div class='poselist'>
             {poseList.map(pose => {
                 return (
                     <Pose pose={pose} handleToggle={handleToggle} handleFilter={handleFilter} />
